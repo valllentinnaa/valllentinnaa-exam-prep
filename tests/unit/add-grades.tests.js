@@ -24,7 +24,7 @@ suite('Add Grades page', function() {
 
   test('Add valid grade', async function() {
     let res = await fetch(
-      "http://localhost:8888/Add-Grade",
+      "http://localhost:8090/Add-Grade",
       {
         method: 'POST',
         headers: {
